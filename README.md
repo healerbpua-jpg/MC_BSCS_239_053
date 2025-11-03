@@ -8,7 +8,7 @@ This is my **first Markdown document** in VS Code.
 # WEEKLY TASK
 
 # py.ex.1 ...string ,int
-```python
+```pythongit
 print("My age is",20) #1
 print("total apples=",45)#2
 
@@ -40,3 +40,14 @@ a = 4
 b = 5
 print(a + b) ##9
 
+
+##Dictionary
+
+Student= {
+    "Name": "Bisma Waqar",
+    "Age" : 20,
+    "Institute" : "Times University"
+
+}
+
+print(Student)
