@@ -51,3 +51,39 @@ Student= {
 }
 
 print(Student)
+
+
+##3-11-2025
+# 10 variables.......
+name = "Bisma Waqar"
+age = 20
+grade = "15th"
+height = 5.
+is_student = True
+marks = 85
+city = "Multan"
+subject = "Advanced programming"
+friends = 4
+hobby = "Cricket,Reading"
+
+# Print all variables.........
+print("Name:", name)
+print("Age:", age)
+print("Grade:", grade)
+print("Height:", height)
+print("Is Student:", is_student)
+print("Marks:", marks)
+print("City:", city)
+print("Subject:", subject)
+print("Friends:", friends)
+print("Hobby:", hobby)
+
+
+# Boolean operations.........
+print("\n--- Boolean Operations ---")
+print("Is age greater than 15?", age > 15)
+print("Is marks equal to 85?", marks == 85)
+print("Is marks less than 50?", marks < 50)
+print("Is student and marks > 80?", is_student and marks > 80)
+print("Is student or height < 5?", is_student or height < 5)
+print("Not is_student:", not is_student)
