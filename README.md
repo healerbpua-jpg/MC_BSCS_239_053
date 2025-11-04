@@ -87,3 +87,17 @@ print("Is marks less than 50?", marks < 50)
 print("Is student and marks > 80?", is_student and marks > 80)
 print("Is student or height < 5?", is_student or height < 5)
 print("Not is_student:", not is_student)
+
+
+# Taking input from user
+name = input("Enter your name: ")
+age = input("Enter your age: ")          # int → number
+grade = input("Enter your grade: ")
+height = float(input("Enter your height in feet: "))  # float → decimal
+is_student_input = input("Are you a student? (yes/no): ")
+is_student = is_student_input.lower() == "yes"        # converts answer to True or False
+marks = int(input("Enter your marks: "))
+city = input("Enter your city: ")
+subject = input("Enter your favorite subject: ")
+friends = int(input("Enter number of friends: "))
+hobby = input("Enter your hobby: ")
